@@ -528,9 +528,9 @@ footer .wrapper{
    .header_inner #toggle{
     order: 3;
    }
-    header{
+/*     header{
         position: relative;
-    }
+    } */
     .header_inner .drower{
         position: absolute;
         inset: 100% 0 0 0;
@@ -549,6 +549,9 @@ footer .wrapper{
     }
     .header_inner .drower , .header_inner .btn{
         display: none;
+    }
+    .content .wrapper{
+        margin-top: 55px;
     }
     .content_inner{
         background-position-x: 435px;
